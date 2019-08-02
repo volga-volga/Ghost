@@ -1,7 +1,7 @@
 {
-    "url": "http://localhost:2368",
+    "url": "https://ghost.1hp.tv",
     "server": {
-        "host": "127.0.0.1",
+        "host": "0.0.0.0",
         "port": 2368
     },
     "updateCheck": {
@@ -94,6 +94,5 @@
     },
     "compress": true,
     "preloadHeaders": false,
-    "adminFrameProtection": true,
     "sendWelcomeEmail": true
 }

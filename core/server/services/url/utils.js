@@ -364,8 +364,11 @@ function urlFor(context, data, absolute) {
 }
 
 function isSSL(urlToParse) {
+    return false; //workaround for kubernetes ssl
+    /*
     var protocol = url.parse(urlToParse).protocol;
     return protocol === 'https:';
+    */
 }
 
 function redirect301(res, redirectUrl) {
